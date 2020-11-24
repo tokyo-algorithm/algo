@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+class Main {
+	public static void main(String[] args) throws Exception {
+		Scanner sc = new Scanner(System.in);
+		String array[] = new String[2];
+		int num[] = new int[2];
+		int rest_coupon = 0;
+		int plus_coupon = 0;
+		for(int i = 0; i < 2; i++){
+			array[i] = sc.next();
+			num[i] = Integer.parseInt(array[i]);
+		}
+		int sum = num[0];
+		System.out.println(num[0] + " "+ num[1]);
+		// while 조건 이상해 보임.
+    while(num[0] % num[1] > num[1]){
+			plus_coupon = num[0] / num[1];
+			sum += plus_coupon;
+			rest_coupon = num[0] % num[1];
+			num[0] = plus_coupon + rest_coupon;
+			if(num[0] < num[1]){
+				break;
+			}
+		}
+		System.out.print(sum);
+	}
+}
