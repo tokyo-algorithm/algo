@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.*;
+class Main {
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String input = br.readLine();
+		Scanner sc = new Scanner(System.in);
+		String array[] = new String[1];
+		double arr[] = new double[3];
+		double num = 0;
+		double rate = 1;
+		// 입력 받기
+		// 입력 받은 후 바로 형변환해서 넣어 주려고 했는데 Int는 가능, Double은 불가능
+		for(int i = 0; i < 1; i++){
+			array[i] = sc.next();
+		}
+		// 입력 받은 후 Double 형변환
+		for(int i = 0; i < 3; i++){
+			arr[i] = Double.parseDouble(array[i]);
+		}
+		// 이자율 계산
+		for(int i = 0; i < arr[i]; i++){
+			// 이자값만
+			rate = rate * arr[1];
+		}
+		num = arr[0] * rate;
+		System.out.printf("%.2f", num);
+		// 이자율 복리 계산
+		// (원금 인트 * 이자율 더블 ) = (원금 * 이자율 ) = (원금 * 이자율)
+	}
+}
