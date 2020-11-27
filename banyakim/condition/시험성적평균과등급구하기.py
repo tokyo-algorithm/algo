@@ -10,14 +10,14 @@ total_score = kor + eng + math
 avg = float(total_score / subject_count)
 
 if avg >= 90:
-	grade = 'A'
+    grade = 'A'
 elif avg >= 80:
-	grade = 'B'
+    grade = 'B'
 elif avg >= 70:
-	grade = 'C'
+    grade = 'C'
 elif avg >= 60:
-	grade = 'D'
+    grade = 'D'
 else:
-	grade = 'F'
-	
+    grade = 'F'
+
 print(format(avg, '.2f'), grade)
