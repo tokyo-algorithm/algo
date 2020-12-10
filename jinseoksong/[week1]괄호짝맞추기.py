@@ -8,7 +8,7 @@ class Main {
 		int b = 0; 
 		int c = 0;
 		int d = 0;
-		int e = 0;
+		int e = 0;sdfsddsfsdfsfddsf
 		int f = 0;
 		String arr = sc.next();
 		String array[];
