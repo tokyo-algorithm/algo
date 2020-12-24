@@ -10,4 +10,5 @@
 # LeetCode
 ## Easy
 [TwoSum](./TwoSum.py)
+[ReverseInteger](./ReverseInteger.py)
 
