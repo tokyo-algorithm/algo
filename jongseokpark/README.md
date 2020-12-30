@@ -9,6 +9,7 @@
 
 # LeetCode
 ## Easy
-[TwoSum](./TwoSum.py)
-[ReverseInteger](./ReverseInteger.py)
+[Two Sum](./TwoSum.py)
+[Reverse Integer](./ReverseInteger.py)
+[Roman to Integer](./RomanToInteger.py)
 
